@@ -49,6 +49,7 @@ main {
     width: 100%;
     height: auto;
     padding-top: 10px;  
+    margin-bottom: 20px;
 }
 
 section .videos {
@@ -69,8 +70,26 @@ iframe {
      border-radius: 10px; 
 }
 
+.td-p h1 {
+    width: 888px;
+    text-align: center; 
+    margin-bottom: 20px; 
+}
 
 
+.td-p p {
+    width: 888px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.td-p .t-p p {
+    font-size: 16px;
+    text-align: center;
+
+}
 
 
 
