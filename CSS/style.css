@@ -11,20 +11,27 @@ body{
 
 header{
     background-color: #003366;
-    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    padding: 1px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 5px solid #ff5500;
 }
 
+   
 header img {
     height: 50%;
+   
+    
 }
 
 nav {
     display: flex;
     gap: 30px;
+   
+   
 }
 
 nav a {
@@ -43,20 +50,23 @@ nav a:hover {
 main {
     margin: 0;
     box-sizing: border-box;
+    margin-bottom: 10px; 
+
 }
 
 .banner {
     width: 100%;
     height: auto;
-    padding-top: 10px;  
-    margin-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 90px;  
+   
 }
 
 section .videos {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    position: absolute;
+    
     padding: 10px;
     right: 10px;
     
@@ -78,9 +88,9 @@ iframe {
 
 
 .td-p p {
-    width: 888px;
+    width: 1000px;
     text-align: justify;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
     margin-bottom: 15px;
 }
@@ -88,8 +98,14 @@ iframe {
 .td-p .t-p p {
     font-size: 16px;
     text-align: center;
-
+    
 }
+
+.fotos {
+    display: flex;
+   
+}
+
 
 
 
