@@ -6,7 +6,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #c4c4c437;
+    background-color: #dedbdb96;
 }
 
 header{
@@ -62,14 +62,17 @@ main {
    
 }
 
+section {
+    width: 1520px;
+    height: 10px;
+}
+
 section .videos {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    
-    padding: 10px;
-    right: 10px;
-    
+    margin-top: 10px;
+    margin-right: 15px;  
 }
 
 .videos {
@@ -77,35 +80,85 @@ section .videos {
 }
 
 iframe {
-     border-radius: 10px; 
+    border-radius: 10px; 
+    
 }
 
 .td-p h1 {
-    width: 888px;
+    width: 1300px;
     text-align: center; 
-    margin-bottom: 20px; 
+    margin-bottom: 15px;
+   
 }
 
-
 .td-p p {
-    width: 1000px;
+    width: 1100px;
     text-align: justify;
     font-size: 20px;
-    line-height: 1.6;
+    line-height: 1.4;
     margin-bottom: 15px;
+   
 }
 
 .td-p .t-p p {
     font-size: 16px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .fotos {
     display: flex;
+    width: 10px;
+    height: 10px;
    
 }
 
+.ft {
+   margin: 220px 20px 20px 20px;  
+}
+
+.galerias {
+    gap: 10px;
+}
+
+.galeria {
+    width: 220px;
+    height: 190px;
+}
+
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .td-p h1 {
+    font-size: 1.5rem;
+  }
+
+  .td-p p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .videos {
+    align-items: center;
+  }
+
+  iframe {
+    max-width: 100%;
+  }
+
+  .fotos, .galerias {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 
 
